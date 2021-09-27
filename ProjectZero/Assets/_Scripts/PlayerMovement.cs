@@ -14,9 +14,9 @@ public class PlayerMovement : MonoBehaviour
     private float groundDistance = 0.5f;
     private float gravity = -50f;
     [SerializeField]
-    private int movementSpeed;
+    private int movementSpeed = 25;
     [SerializeField]
-    private int jumpHeight;
+    private int jumpHeight = 5;
 
 
     void Update()

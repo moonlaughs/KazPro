@@ -464,6 +464,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   groundDistance: 0.5
+  movementSpeed: 25
+  jumpHeight: 3
 --- !u!143 &1285050117
 CharacterController:
   m_ObjectHideFlags: 0
